@@ -13,6 +13,8 @@ This repository contains an implementation of examples from the book "Head First
 [Lombok](https://projectlombok.org/)\
 [Flogger](https://google.github.io/flogger/)\
 [JetBrains Annotations](https://www.jetbrains.com/help/idea/annotating-source-code.html#bundled-annotations)
+[Microutils](https://github.com/MicroUtils/kotlin-logging)
+[SLF4J](https://www.slf4j.org/)
 
 
 
