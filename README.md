@@ -5,8 +5,7 @@ This repository contains an implementation of examples from the book "Head First
 
 ## Languages
 
-<img src="https://www.svgrepo.com/show/303617/kotlin-1-logo.svg" alt="Kotlin" width=32>
-<img src="https://www.svgrepo.com/show/184143/java.svg" alt="Java" width=38>
+<img src="https://www.svgrepo.com/show/303617/kotlin-1-logo.svg" alt="Kotlin" width=16><img src="https://www.svgrepo.com/show/184143/java.svg" alt="Java" width=19>
  
 ## Maven Dependencies
 
@@ -33,9 +32,11 @@ This way the context becomes independent of concrete strategies, so you can add 
 
 #### Structure
 <em>General</em>
+
 <img width="936" alt="image" src="https://user-images.githubusercontent.com/73034324/165866264-1345bd0f-3503-4eec-ba45-5b9eea6c91c4.png">
 
 <em>Project</em>
+
 <img width="963" alt="image" src="https://user-images.githubusercontent.com/73034324/165866296-ae3b47d6-47ef-4ff9-9979-855d3de83023.png">
 
 
