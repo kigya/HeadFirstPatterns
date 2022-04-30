@@ -21,6 +21,7 @@ This repository contains an implementation of examples from the book "Head First
 ## Links
 
 - [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
+- [Refactoring Guru Design Patterns](https://refactoring.guru/design-patterns)
 
 
 ## Patterns
@@ -44,5 +45,22 @@ This way the context becomes independent of concrete strategies, so you can add 
 <img width="963" alt="image" src="https://user-images.githubusercontent.com/73034324/165866296-ae3b47d6-47ef-4ff9-9979-855d3de83023.png">
 
 
+### Observer
+Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.\
+The Observer pattern suggests that you add a subscription mechanism to the publisher class so individual objects can subscribe to or unsubscribe from a stream of events coming from that publisher. In reality, this mechanism consists of 1) an array field for storing a list of references to subscriber objects and 2) several public methods which allow adding subscribers to and removing them from that list.\
+Now, whenever an important event happens to the publisher, it goes over its subscribers and calls the specific notification method on their objects.\
+Real apps might have dozens of different subscriber classes that are interested in tracking events of the same publisher class. You wouldn’t want to couple the publisher to all of those classes. Besides, you might not even know about some of them beforehand if your publisher class is supposed to be used by other people.\
+That’s why it’s crucial that all subscribers implement the same interface and that the publisher communicates with them only via that interface. This interface should declare the notification method along with a set of parameters that the publisher can use to pass some contextual data along with the notification.\
 
+![image](https://user-images.githubusercontent.com/73034324/166114569-ec8f8d74-aa42-4598-a72e-3fd43caaae0d.png)
+
+
+<em>General</em>
+
+<img width="1009" alt="image" src="https://user-images.githubusercontent.com/73034324/166114582-062bfee7-4c40-4415-bf3f-c2942653e03a.png">
+
+
+<em>Project</em>
+
+<img width="728" alt="image" src="https://user-images.githubusercontent.com/73034324/166114587-07f0cfcc-44d7-4466-bd38-27c63e3e7d9d.png">
 
