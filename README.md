@@ -38,7 +38,7 @@ This way the context becomes independent of concrete strategies, so you can add 
 
 <em>General</em>
 
-<img width="936" alt="image" src="https://user-images.githubusercontent.com/73034324/165866264-1345bd0f-3503-4eec-ba45-5b9eea6c91c4.png">
+![image](https://user-images.githubusercontent.com/73034324/166114866-ac3d71ba-fc34-43e2-b897-d3063c20e589.png)
 
 <em>Project</em>
 
@@ -51,6 +51,9 @@ The Observer pattern suggests that you add a subscription mechanism to the publi
 Now, whenever an important event happens to the publisher, it goes over its subscribers and calls the specific notification method on their objects.\
 Real apps might have dozens of different subscriber classes that are interested in tracking events of the same publisher class. You wouldn’t want to couple the publisher to all of those classes. Besides, you might not even know about some of them beforehand if your publisher class is supposed to be used by other people.\
 That’s why it’s crucial that all subscribers implement the same interface and that the publisher communicates with them only via that interface. This interface should declare the notification method along with a set of parameters that the publisher can use to pass some contextual data along with the notification.\
+
+#### Structure
+
 
 ![image](https://user-images.githubusercontent.com/73034324/166114569-ec8f8d74-aa42-4598-a72e-3fd43caaae0d.png)
 
