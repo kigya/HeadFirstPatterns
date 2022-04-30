@@ -60,7 +60,7 @@ That’s why it’s crucial that all subscribers implement the same interface an
 
 <em>General</em>
 
-<img width="1009" alt="image" src="https://user-images.githubusercontent.com/73034324/166114582-062bfee7-4c40-4415-bf3f-c2942653e03a.png">
+<img width="935" alt="image" src="https://user-images.githubusercontent.com/73034324/166114894-34bbea53-5eb9-47c8-8ef5-7e4af3ae426c.png">
 
 
 <em>Project</em>
