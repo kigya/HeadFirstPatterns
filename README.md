@@ -67,3 +67,19 @@ That’s why it’s crucial that all subscribers implement the same interface an
 
 <img width="728" alt="image" src="https://user-images.githubusercontent.com/73034324/166114587-07f0cfcc-44d7-4466-bd38-27c63e3e7d9d.png">
 
+
+### Decorator
+Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.\
+“Wrapper” is the alternative nickname for the Decorator pattern that clearly expresses the main idea of the pattern. A wrapper is an object that can be linked with some target object. The wrapper contains the same set of methods as the target and delegates to it all requests it receives. However, the wrapper may alter the result by doing something either before or after it passes the request to the target.\
+When does a simple wrapper become the real decorator? As I mentioned, the wrapper implements the same interface as the wrapped object. That’s why from the client’s perspective these objects are identical. Make the wrapper’s reference field accept any object that follows that interface. This will let you cover an object in multiple wrappers, adding the combined behavior of all the wrappers to it.
+
+#### Structure
+
+<em>General</em>
+
+<img width="983" alt="image" src="https://user-images.githubusercontent.com/73034324/166238638-97b3ab38-2bbc-47cd-ad8e-ddc48e2f92ca.png">
+
+
+<em>Project</em>
+
+<img width="924" alt="image" src="https://user-images.githubusercontent.com/73034324/166238754-2479dd5d-20db-46c9-a804-aef03ba4043a.png">
